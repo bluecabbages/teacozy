@@ -35,6 +35,7 @@ header {
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   z-index: 1;
   margin: auto;
   background-color: black;
@@ -78,16 +79,18 @@ main {
   background-image: url(../images/mission-background.jpg);
   width: 1200px;
   height: 700px;
+  background-repeat: no-repeat;
 
    }
 
 
-.mission .ourmission span {
-  background-color: black;
+.mission .ourmission {
+    background-color: black;
     opacity: 1;
     display: inline-block;
     justify-content: center;
     align-items: center;
+    width: 1200px;
 }
 
 
@@ -95,7 +98,6 @@ main {
 
 .teamonth {
   flex-flow: column;
-  width: 1000px;
   justify-content: center;
   margin-top: 70px;
   margin-bottom: 70px;
@@ -111,16 +113,19 @@ main {
 .selection img {
   width: 300px;
   height: 200px;
+  margin: 10px;
 }
 
-.selection h4 {
-  padding-top: 5px;
+.image {
+  padding: 5px;
+  margin: 10px;
 }
 
 /* Locations */
 
 .locations {
   background-image: url(../images/locations-background.jpg);
+  width: 1200px;
   height: 500px;
   padding-top: 70px;
   background-repeat: no-repeat;
@@ -139,6 +144,9 @@ main {
   opacity: 1;
 }
 
+.contact {
+  height: 200px;
+}
 /* Footer */
 
 footer {
