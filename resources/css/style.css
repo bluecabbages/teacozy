@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: normal;
+  color: seashell;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+}
+
+/* header */
+
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+  margin: auto;
+  margin-top; 0;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.menu {
+  display: flex;
+}
+
+header nav {
+  padding-right: 40px;
+  justify-content: flex-end;
+}
+
+nav span {
+  display: inline-block;
+  padding: 15px;
+  align-items: center;
+}
+
+/* Mission Section */
+
+.mission {
+  padding-top: 70px;
+  background-image: url(../images/mission-background.jpg);
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+
+   }
+
+  .our_mission span {
+    background-color: black;
+    display: inline-block;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Tea Month */
+
+.teamonth {
+  display: flex;
+  width: 1000px;
+}
+
+.selection {
+  flex-wrap: wrap;
+  display: inline-flex;
+}
+
+.selection img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url(../images/locations-background.jpg);
+}
